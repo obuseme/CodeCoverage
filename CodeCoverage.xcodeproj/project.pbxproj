@@ -13,6 +13,8 @@
 		41E8EF601CD98EAE00BC0C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E8EF5F1CD98EAE00BC0C0B /* Assets.xcassets */; };
 		41E8EF631CD98EAE00BC0C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E8EF611CD98EAE00BC0C0B /* LaunchScreen.storyboard */; };
 		41E8EF6E1CD98EAE00BC0C0B /* CodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8EF6D1CD98EAE00BC0C0B /* CodeCoverageTests.swift */; };
+		41E8EF791CD993AD00BC0C0B /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8EF781CD993AD00BC0C0B /* TestingAppDelegate.swift */; };
+		41E8EF7B1CD9945A00BC0C0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E8EF7A1CD9945A00BC0C0B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		41E8EF691CD98EAE00BC0C0B /* CodeCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCoverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E8EF6D1CD98EAE00BC0C0B /* CodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCoverageTests.swift; sourceTree = "<group>"; };
 		41E8EF6F1CD98EAE00BC0C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E8EF781CD993AD00BC0C0B /* TestingAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		41E8EF7A1CD9945A00BC0C0B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		41E8EF4C1CD98EAE00BC0C0B = {
 			isa = PBXGroup;
 			children = (
+				41E8EF7A1CD9945A00BC0C0B /* main.swift */,
 				41E8EF571CD98EAE00BC0C0B /* CodeCoverage */,
 				41E8EF6C1CD98EAE00BC0C0B /* CodeCoverageTests */,
 				41E8EF561CD98EAE00BC0C0B /* Products */,
@@ -83,6 +88,7 @@
 				41E8EF5F1CD98EAE00BC0C0B /* Assets.xcassets */,
 				41E8EF611CD98EAE00BC0C0B /* LaunchScreen.storyboard */,
 				41E8EF641CD98EAE00BC0C0B /* Info.plist */,
+				41E8EF781CD993AD00BC0C0B /* TestingAppDelegate.swift */,
 			);
 			path = CodeCoverage;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E8EF791CD993AD00BC0C0B /* TestingAppDelegate.swift in Sources */,
 				41E8EF5B1CD98EAE00BC0C0B /* ViewController.swift in Sources */,
+				41E8EF7B1CD9945A00BC0C0B /* main.swift in Sources */,
 				41E8EF591CD98EAE00BC0C0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
